@@ -35,3 +35,24 @@ text/html; charset=utf-8|
  
 ## Why is this address http and not https?
 ... (This address use HTTP beacuse 127.0.0.1 point to my own computer so the traffic never leave my machine and , never across the network where someone could spy on it. HTTPS only protects data while it travels across a network, so for local traffic it isn’t needed.)
+
+
+
+
+## Specificity Experiment
+An ID selector (`#main p`) overrides a class and element selector (`.hero p`), even if the class comes later in the CSS file. When I changed it to `main p`, the hero paragraph went back to white because the class selector won.
+
+## Selectors I used
+| Selector kind | Example from my CSS |
+| :--- | :--- |
+| Element | `body` |
+| Class | `.card` |
+| ID | `#main` |
+| Grouping (comma) | `h1, h2, h3` |
+| Descendant (space) | `.nav-list a` |
+| Child (`>`) | `main > section` |
+| Adjacent sibling (`+`) | `h1 + p` |
+| Compound (no space) | `a.active` |
+| Attribute | `input[required]` |
+| Pseudo-class | `:hover` |
+| Pseudo-element | `::before` |
