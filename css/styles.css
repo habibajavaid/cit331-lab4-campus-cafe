@@ -222,9 +222,7 @@ input[placeholder]:not(:placeholder-shown):invalid { border-color: #b3261e; }
 #message { min-height: 1.6em; font-weight: 600; color: #0a6b50; }
 
 
-#main p {
-  color: red;
-}
+
 
 
 /* ---------- 11. Flexbox: header, nav, footer ---------- */
