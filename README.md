@@ -18,5 +18,5 @@ HTML5, CSS3 and a little JavaScript. No frameworks.
 Your Name Habiba Javaid, Roll No. 24l-BSCS-0030
 
 
-**Live site:** 
-**Repository:**
+**Live site:**  https://habibajavaid.github.io/cit331-lab4-campus-cafe/
+**Repository:** https://github.com/habibajavaid/cit331-lab4-campus-cafe
