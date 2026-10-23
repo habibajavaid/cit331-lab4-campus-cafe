@@ -56,3 +56,20 @@ An ID selector (`#main p`) overrides a class and element selector (`.hero p`), e
 | Attribute | `input[required]` |
 | Pseudo-class | `:hover` |
 | Pseudo-element | `::before` |
+
+
+
+
+## Bug log (Lab 4, Task 6)
+ 
+What was wrong (file and line)	Which tool showed it	My fix
+1	HTML link is style.css but file is bugs.css	Network tab (404 error)	Change link href to bugs.css
+2	Image is missing an alt attribute	W3C Validator / Lighthouse	Add alt="Campus Cafe logo"
+3	The <html> tag is missing lang="en"	Lighthouse / Accessibility	Add lang="en" to <html>
+4	Menu uses <div class="menu"> instead of <nav>	Accessibility tree	Change <div> to <nav>
+5	Heading jumps from <h1> to <h4>	Accessibility / Validator	Change <h4> to <h2>
+6	Label for="mail" doesn't match input id="email"	Lighthouse (Form elements...)	Change for="mail" to for="email"
+7	CSS property is spelled colour: #ffffff	Styles pane (yellow warning)	Change to color: #ffffff
+8	CSS class is .notes but HTML is class="note"	Styles pane (rule never applies)	Change .notes to .note
+9	The <button> is missing type="submit"	Validator / default behavior	Add type="submit"
+10	Color contrast on .note (#999999 on white) is too low	Lighthouse	Change color to #555555
